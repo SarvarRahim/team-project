@@ -43,9 +43,60 @@ img {
 
 /* CONTAINER */
 .container {
-  max-width: 900px;
-  padding-left: 50px;
-  padding-right: 50px;
+  
   margin-left: auto;
   margin-right: auto;
 }
+.head-list-item {
+  list-style: none;
+  margin: 0 15px;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+}
+.head {
+  margin-top: 50px;
+  width: 1148px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: black;
+  font-size: 32px;
+  font-weight: bolder;
+}
+.head-list {
+  display: flex;
+  margin-right: 450px;
+}
+.head-list-item-link {
+  color: black;
+  font-size: 16px;
+  line-height: 40px;
+}
+.login {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.login-link {
+  color: black;
+  margin-right: 30px;
+}
+.button {
+  text-align: center;
+  width: 105px;
+  height: 40px;
+  border-radius: 28px;
+  background-color: rgb(66, 66, 231);
+}
+.signup-link {
+  color: #fff;
+  line-height: 40px;
+}
+
